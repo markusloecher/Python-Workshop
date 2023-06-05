@@ -1,0 +1,33 @@
+project:
+  type: book
+
+book:
+  title: "Exercises for Introduction to Data Science in Python"
+  author: "Prof. Dr. Markus Löcher"
+  date: "05/28/2023"
+  sidebar:
+    style: docked
+    background: light
+  chapters:
+    - index.qmd
+    - Lab1.ipynb
+    - Lab2.ipynb
+    - Lab3.ipynb
+    - Lab4.ipynb
+    - Lab5.ipynb
+    - DS_Exercise1.ipynb
+    - Lab6.ipynb
+    - Lab7.ipynb
+    - DS_Homework1.ipynb
+
+format:
+  html:
+    theme: cosmo
+    number-depth: 1
+    number-sections: true
+
+  pdf:
+    documentclass: scrreprt
+
+
+

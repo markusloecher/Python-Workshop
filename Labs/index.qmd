@@ -1,0 +1,3 @@
+# Preface {.unnumbered}
+
+This is a collection of exercises that accompany the python workshop.
