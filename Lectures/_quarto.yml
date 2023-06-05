@@ -1,0 +1,39 @@
+project:
+  type: book
+
+book:
+  title: "Introduction to Data Science in Python"
+  author: "Prof. Dr. Markus Löcher"
+  date: "05/28/2023"
+  sidebar:
+    style: docked
+    background: light
+  chapters:
+    - index.qmd
+    - IntroCoding_Lecture0.ipynb
+    - IntroCoding_Lecture1.ipynb
+    - IntroCoding_Lecture2.ipynb
+    - IntroCoding_Lecture3.ipynb
+    - IntroCoding_Lecture4.ipynb
+    - IntroCoding_Lecture5.ipynb
+    - IntroCoding_Lecture6.ipynb
+    - IntroCoding_Lecture7.ipynb
+    - DS_Lecture2.ipynb
+    - DS_Lecture3.ipynb
+    - DS_Lecture4.ipynb
+    - DS_Lecture5_part2.ipynb
+    - DS_Homework6.ipynb
+    - DS_Lecture7.ipynb
+    - DS_Lecture8.ipynb
+
+format:
+  html:
+    theme: cosmo
+    number-depth: 1
+    number-sections: true
+
+  pdf:
+    documentclass: scrreprt
+
+
+
