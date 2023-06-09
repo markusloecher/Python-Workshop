@@ -1,0 +1,49 @@
+---
+title: "My first Markdown"
+author: "Loecher"
+date: "2023-06-09"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(reticulate)
+py_install("numpy")
+```
+
+## First an R example
+
+
+```{r}
+data(iris)
+plot(Sepal.Length ~Petal.Length, data = iris)
+```
+
+## Now some python
+
+```{python}
+import numpy as np
+
+x = [1,2,3]
+len(x)
+```
+
+## Get python objects into R
+
+
+```{r}
+#The following takes the python object x and makes it an R object xR
+
+xR = py$x
+print(xR)
+```
+
+## Get R objects into python
+
+```{python}
+irisPython = r.iris
+irisPython
+```
+
