@@ -3,6 +3,8 @@ About this python workshop
 
 [Google Drive](https://drive.google.com/drive/folders/13KC2CriJTsuFlDBsjNB1hQsy4tWiEeyS?usp=sharing)
 
+![The Manhattan skyline on Thursday (Eduardo Munoz Alvarez/Getty Images)](Lectures/figures/NewYorkCanadaWildfires.jpg)
+
 Goals
 -----
 
